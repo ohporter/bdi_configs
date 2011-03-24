@@ -1,0 +1,28 @@
+BDI Configs
+-----------
+
+This is the start of an annotated set of known working BDI2000/3000
+config files for various boards. The intention is to have each config
+file in this collection provide comments on what/why/how things were
+done so they serve as examples for derivatives.
+
+In the past, I've found fragments of configs and suggestions
+floating around everywhere from the Abatron and Ultimate Solutions sites
+and every discussion forum/list in between but not one place to grab
+known good configs for boards/parts not found in the standard firmware
+drop.
+
+HOWTO:
+	[hope you know how to configure your BDI to find your host tftp dir]
+	cd /tftpboot
+	git clone git://github/ohporter/bdi_configs
+	[configure BDI filename to "bdi_configs/foo.cfg"]
+
+TODO:
+
+* Add additional TI Sitara EVM configs
+* Generate a chart of each config's features (meminit/flash setup? etc.)
+
+--
+Matt Porter
+mporter@ti.com
